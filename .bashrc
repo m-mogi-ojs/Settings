@@ -12,7 +12,7 @@ YELLOW="\[\e[33m\]"
 WHITE="\[\e[00m\]"
 END_COLOR="\[\e[m\]"
 
-PS1="${GREEN}[\u@\h \t] ${YELLOW}\w ${CYAN}\$(parse_git_branch)\$${END_COLOR} "
+PS1="${GREEN}[\u@\h \t] ${YELLOW}\w ${CYAN}`parse_git_branch`\$${END_COLOR} "
 
 alias ls='ls --color=auto'
 alias ll='ls -laFG --color=auto'
