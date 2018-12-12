@@ -1,0 +1,21 @@
+// settigs.json for Visual Studio Code
+{
+  "window.zoomLevel": 0,
+  //"terminal.integrated.shell.windows": "C:\\tools\\Git\\bin\\bash.exe"
+  //"terminal.integrated.shell.windows": "D:\\tools\\msys32\\usr\\bin\\bash.exe",
+  //"terminal.integrated.env.windows": {
+  //  "MSYSTEM": "MINGW32",
+  //  "CHERE_INVOKING": "1"
+  //},
+  //"terminal.integrated.shellArgs.windows": [
+  //  "--login"
+  //],
+  "terminal.integrated.cursorStyle": "line",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true, // ペースト時に自動でフォーマット
+  "editor.formatOnSave": true, // ファイル保存時に自動でフォーマット
+  "editor.formatOnType": true, // 入力した行を自動でフォーマット
+  //"shellformat.path": "D:\\tools\\shfmt_v2.6.1_windows_386.exe",
+  "workbench.editor.showTabs": true,
+}
