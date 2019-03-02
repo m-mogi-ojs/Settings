@@ -1,3 +1,4 @@
+
 // settigs.json for Visual Studio Code
 {
   "window.zoomLevel": 0,
@@ -18,4 +19,6 @@
   "editor.formatOnType": true, // 入力した行を自動でフォーマット
   //"shellformat.path": "D:\\tools\\shfmt_v2.6.1_windows_386.exe",
   "workbench.editor.showTabs": true,
+  "vim.useSystemClipboard": true,
+  "explorer.confirmDragAndDrop": false,
 }
