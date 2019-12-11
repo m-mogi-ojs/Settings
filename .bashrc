@@ -15,6 +15,9 @@ END_COLOR='\[\e[m\]'
 export PS1="${GREEN}[\u@\h \t] ${YELLOW}\w ${CYAN}"'$(parse_git_branch)'"\n${END_COLOR}\$ "
 
 alias ls='ls -G'
-alias ll='ls -laFG'
+alias ll='ls -lFG'
 alias grep='grep --color=auto'
 alias gitstatus='git status --short --branch'
+
+# gitがない環境下用
+# export PS1="\[\e[32m\][\u@\h \t] \[\e[33m\]\w \[\e[m\]\$ "
